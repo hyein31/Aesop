@@ -1,0 +1,2399 @@
+#wrap {
+  background-color: #f4eeea;
+  overflow-x: hidden;
+}
+
+/* header */
+header {
+  width: 100%;
+  position: relative;
+}
+
+.nav {
+  width: 100%;
+  height: 95px;
+  background-color: #e1cfc6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .hamburger {
+  display: none;
+}
+
+.nav .nav-menu {
+  overflow: hidden;
+  margin-left: 40px;
+}
+
+.nav .nav-menu li {
+  float: left;
+  margin-right: 25px;
+}
+
+.nav .nav-menu li a {
+  color: #130e0a;
+  font-size: 16px;
+  font-family: "Noto Serif KR", serif;
+  font-weight: 600;
+}
+
+.logo {
+  width: 178px;
+  height: 57px;
+  position: absolute;
+  /* top: 30px;
+    left: 886px;   */
+  top: 30%;
+  left: 47%;
+}
+
+.logo a img {
+  width: 148px;
+  height: 47px;
+}
+
+.icon-list {
+  margin-right: 40px;
+}
+
+.icon-list a:last-child {
+  margin-left: 34px;
+}
+
+.icon-list a:nth-child(2) {
+  margin-left: 25px;
+}
+
+.icon-list a img {
+  display: inline-block;
+  color: #130e0a;
+  width: 26px;
+  height: 26px;
+}
+
+/* banner */
+.first {
+  position: relative;
+}
+
+.banner {
+  width: 400%;
+  display: flex;
+}
+
+.banner img {
+  object-position: left;
+}
+
+.banner .banner1 {
+  width: 100%;
+  height: 530px;
+  background-image: url(../img2/background1.png);
+  background-repeat: no-repeat;
+}
+
+.banner .t-box {
+  width: 1000px;
+  margin-left: 150px;
+  margin-top: 130px;
+}
+
+.banner h3 {
+  font-size: 48px;
+  color: #f4eeea;
+  font-family: "Noto Serif KR", serif;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+
+.banner p {
+  font-size: 28px;
+  color: #f4eeea;
+  font-family: "Noto Serif KR", serif;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 36px;
+}
+
+.banner .b-btn {
+  border: 1px solid #f4eeea;
+  width: 160px;
+  height: 36px;
+}
+.banner .banner-btn {
+  font-size: 20px;
+  color: #f4eeea;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 200;
+  line-height: 36px;
+  text-align: center;
+}
+
+.banner .banner2 {
+  width: 100%;
+  height: 530px;
+  background-image: url(../img2/background2.png);
+  background-repeat: no-repeat;
+}
+
+.banner .banner3 {
+  width: 100%;
+  height: 530px;
+  background-image: url(../img2/banner4.png);
+  background-repeat: no-repeat;
+}
+
+/* 기프트 리스트 */
+.gift {
+  width: 100%;
+  height: 820px;
+  background-color: #f4eeea;
+  position: relative;
+}
+
+.gift-title {
+  width: 420px;
+  height: 110px;
+  margin-left: 168px;
+  margin-top: 150px;
+}
+
+/* 기프트 슬라이더 */
+.gift-list {
+  width: 80%;
+  height: 530px;
+  margin-top: 66px;
+  margin-left: 168px;
+  overflow: hidden;
+}
+
+.gift-list .second {
+  width: 100%;
+  position: relative;
+}
+
+.gift-list .list-img {
+  margin: 0 auto;
+}
+
+.gift-list .gift-slider {
+  width: 300%;
+  display: flex;
+}
+
+.gift-list .list {
+  width: 25%;
+  /* border: 1px solid red; */
+}
+
+.gift-list h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #130e0a;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Noto Serif KR", serif;
+}
+
+.gift-list p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #130e0a;
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.gift-list img {
+  width: 100%;
+  height: 100%;
+}
+
+.gift-list .swiper-button-prev {
+  position: absolute;
+  top: 42%;
+  color: #815a45;
+}
+.gift-list .swiper-button-next {
+  position: absolute;
+  top: 42%;
+  color: #815a45;
+}
+
+/* 메뉴 모음 */
+.menu-list {
+  width: 100%;
+  height: 784px;
+  background-color: #f4eeea;
+}
+
+.menu-group {
+  width: 85%;
+  height: 488px;
+  /* background-color: #815A45; */
+  display: flex;
+  margin: 0 auto;
+}
+
+.menu-group .menu {
+  width: 430px;
+  height: 488px;
+  margin: 0 auto;
+  text-align: center;
+  border-right: 1px solid #e1cfc6;
+  box-sizing: border-box;
+}
+
+.menu-group .menu:last-child {
+  border-right: none;
+}
+
+.menu-group .menu-img {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.menu-group .menu h3 {
+  margin-top: 26px;
+  margin-bottom: 20px;
+  color: #130e0a;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Noto Serif KR", serif;
+}
+
+.menu-group .menu p {
+  color: #130e0a;
+  font-size: 14px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 기프트 파인더, 지원모드 */
+.gift-f {
+  width: 100%;
+  height: 640px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.gift-finder {
+  width: 418px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.gift-finder .gift-f-img {
+  width: 260px;
+  height: 81px;
+}
+
+.gift-finder p {
+  font-size: 20px;
+  color: #130e0a;
+  margin-top: 20px;
+  margin-bottom: 37px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.gift-finder .button1 {
+  width: 180px;
+  height: 44px;
+  border: 1px solid #130e0a;
+  box-sizing: border-box;
+  transition-duration: 0.5s;
+}
+
+.gift-finder .button1:hover {
+  border: transparent;
+  background-color: #a67458;
+}
+.gift-finder .button1:hover a {
+  color: #f4eeea;
+}
+
+.gift-finder .button1 a {
+  display: block;
+  font-size: 18px;
+  color: #130e0a;
+  text-align: center;
+  line-height: 44px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.service {
+  width: 523px;
+  height: 300px;
+  text-align: right;
+  margin-top: 189px;
+  margin-right: 120px;
+}
+
+.service .service-img {
+  width: 289px;
+  height: 81px;
+  display: inline-block;
+}
+
+.service p {
+  font-size: 20px;
+  color: #130e0a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.service .button2 {
+  width: 200px;
+  height: 44px;
+  border: 1px solid #130e0a;
+  box-sizing: border-box;
+  display: inline-block;
+  transition-duration: 0.5s;
+}
+
+.service .button2 a {
+  display: block;
+  font-size: 18px;
+  color: #130e0a;
+  text-align: center;
+  line-height: 44px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.service .button2:hover {
+  border: transparent;
+  background-color: #a67458;
+}
+.service .button2:hover a {
+  color: #f4eeea;
+}
+
+.gift-f .logo-img {
+  width: 180px;
+  height: 57px;
+  position: absolute;
+  top: 37%;
+  left: 45%;
+}
+
+/* store */
+.store {
+  width: 100%;
+  height: 740px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.store .store-box {
+  width: 766px;
+  height: 500px;
+  margin-left: 160px;
+  margin-top: 80px;
+}
+
+.store .store-img {
+  overflow: hidden;
+}
+
+.store .store-list {
+  width: 300%;
+  display: flex;
+}
+
+.store .store-list .aesop-store {
+  object-fit: contain;
+}
+
+.store .store-list .aesop-store p{
+  text-align: center;
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+/* store-title */
+.store-title {
+  /* background-color: #5D4131; */
+  width: 420px;
+  height: 322px;
+  margin-right: 160px;
+  margin-top: 160px;
+  text-align: right;
+}
+
+.store-title .store-loc {
+  width: 278px;
+  height: 83px;
+  display: inline-block;
+}
+
+.store-title p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #130e0a;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.store-title .button3 {
+  width: 190px;
+  height: 44px;
+  border: 1px solid #130e0a;
+  box-sizing: border-box;
+  display: inline-block;
+  transition-duration: 0.5s;
+}
+
+.store-title .button3 a {
+  font-size: 18px;
+  color: #130e0a;
+  text-align: center;
+  line-height: 44px;
+  font-family: "Noto Sans KR", sans-serif;
+  width: 100%;
+  display: inline-block;
+}
+
+.store-title .button3:hover {
+  border: transparent;
+  background-color: #a67458;
+}
+.store-title .button3:hover a {
+  color: #f4eeea;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  background-color: #5d4131;
+  padding: 34px 160px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.f-box {
+  width: 16.666%;
+}
+
+footer h4 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #f4eeea;
+  margin-bottom: 14px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+footer p a {
+  font-size: 12px;
+  font-weight: 200;
+  color: #f4eeea;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+footer .notice p {
+  font-size: 12px;
+  font-weight: 200;
+  color: #f4eeea;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+footer .social .f-icon-list {
+  width: 160px;
+  height: 30px;
+  display: flex;
+}
+
+footer .social .f-icon-list .f-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
+  display: inline-block;
+}
+
+footer .location p {
+  font-size: 12px;
+  color: #f4eeea;
+  margin-bottom: 3px;
+}
+footer .location select {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 1600px) {
+  .nav {
+    width: 100%;
+    height: 80px;
+  }
+
+  .nav .nav-menu li {
+    margin-right: 22px;
+  }
+
+  .logo {
+    width: 150px;
+    height: 47px;
+    top: 55%;
+    left: 55%;
+    transform: translate(-55%, -55%);
+  }
+
+  .icon-list a:last-child {
+    margin-left: 24px;
+  }
+
+  .icon-list a:nth-child(2) {
+    margin-left: 20px;
+  }
+
+  .icon-list a img {
+    width: 22px;
+    height: 22px;
+  }
+
+  /* banner */
+
+  .banner .banner1 {
+    width: 100%;
+    height: 430px;
+  }
+
+  .banner .banner2 {
+    width: 100%;
+    height: 430px;
+  }
+
+  .banner .banner3 {
+    width: 100%;
+    height: 430px;
+  }
+
+  .banner .t-box {
+    margin-left: 130px;
+    margin-top: 96px;
+  }
+
+  /* 기프트 리스트 */
+  .gift {
+    width: 100%;
+    height: 720px;
+  }
+
+  .gift-title {
+    width: 360px;
+    height: 50px;
+    margin-left: 148px;
+    margin-top: 120px;
+  }
+
+  /* 기프트 슬라이더 */
+  .gift-list {
+    width: 80%;
+    height: 430px;
+    margin-top: 66px;
+    margin-left: 148px;
+    overflow: hidden;
+  }
+
+  .gift-list .swiper-button-prev{
+    position: absolute; 
+    top: 40%;
+    left: 0%;
+  }
+  .gift-list .swiper-button-prev::after{
+    font-size: 38px;
+  }
+
+
+  .gift-list .swiper-button-next{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+  }
+  .gift-list .swiper-button-next::after{
+    font-size: 38px;
+  }
+
+  .gift-list h3 {
+    font-size: 18px;
+  }
+
+  .gift-list p {
+    font-size: 14px;
+  }
+
+  /* 메뉴 모음 */
+  .menu-list {
+    width: 100%;
+    height: 580px;
+  }
+
+  .menu-group {
+    width: 90%;
+    height: 440px;
+  }
+
+  .menu-group .menu {
+    width: 25%;
+    height: 440px;
+  }
+
+  .menu-group .menu-img {
+    width: 186px;
+    height: 186px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .menu-group .menu h3 {
+    margin-top: 26px;
+    margin-bottom: 16px;
+    color: #130e0a;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Noto Serif KR", serif;
+  }
+
+  .menu-group .menu p {
+    color: #130e0a;
+    font-size: 13px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+
+  /* 기프트 파인더, 지원모드 */
+  .gift-f {
+    width: 100%;
+    height: 570px;
+  }
+
+  .gift-finder {
+    /* background-color: #5D4131; */
+    width: 418px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+
+  .gift-finder .gift-f-img {
+    width: 240px;
+    height: 61px;
+  }
+
+  .gift-finder p {
+    font-size: 18px;
+    color: #130e0a;
+    margin-top: 20px;
+    margin-bottom: 26px;
+  }
+
+  .gift-finder .button1 {
+    width: 158px;
+    height: 40px;
+  }
+
+  .gift-finder .button1 a {
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .service {
+    /* background-color: #5D4131; */
+    width: 480px;
+    height: 300px;
+    text-align: right;
+    margin-top: 260px;
+    margin-right: 80px;
+  }
+
+  .service .service-img {
+    width: 269px;
+    height: 68px;
+    display: inline-block;
+  }
+
+  .service p {
+    font-size: 18px;
+    color: #130e0a;
+    margin-top: 18px;
+    margin-bottom: 14px;
+  }
+
+  .service .button2 {
+    width: 174px;
+    height: 40px;
+  }
+
+  .service .button2 a {
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .gift-f .logo-img {
+    width: 160px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* store */
+
+  .store {
+    width: 100%;
+    height: 680px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .store .store-box {
+    width: 702px;
+    height: 458px;
+    margin-left: 146px;
+    margin-top: 100px;
+  }
+  
+  .store .store-img {
+    overflow: hidden;
+  }
+  
+  .store .store-list {
+    width: 300%;
+    display: flex;
+  }
+  
+  .store .store-list .aesop-store {
+    object-fit: contain;
+  }
+  
+  .store .store-list .aesop-store p{
+    text-align: center;
+    margin-top: 14px;
+    font-size: 18px;
+  }
+  
+
+  /* store-title */
+  .store-title{
+    margin-top: 182px;
+    margin-right: 92px;
+  }
+  .store-title .store-loc {
+    width: 230px;
+    height: 68px;
+  }
+
+  .store-title p {
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .store-title .button3 {
+    width: 160px;
+    height: 40px;
+  }
+
+  .store-title .button3 a {
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  /* footer */
+  footer {
+    padding: 28px 130px;
+  }
+
+  footer h4 {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+
+  footer p a {
+    font-size: 11px;
+  }
+
+  footer .notice p {
+    font-size: 11px;
+  }
+
+  footer .social .f-icon-list {
+    width: 130px;
+    height: 28px;
+  }
+
+  footer .social .f-icon-list .f-icon {
+    width: 26px;
+    height: 26px;
+    margin-right: 6px;
+  }
+
+  footer .location p {
+    font-size: 11px;
+  }
+} /* end */
+
+@media (max-width: 1416px) {
+  .nav {
+    width: 100%;
+    height: 75px;
+  }
+
+  .nav .nav-menu li {
+    margin-right: 20px;
+  }
+
+  .nav .nav-menu li a {
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 120px;
+    height: 38px;
+    top: 54%;
+    left: 56%;
+  }
+
+  .logo a img {
+    width: 120px;
+    height: 38px;
+  }
+
+  .icon-list a:last-child {
+    margin-left: 24px;
+  }
+
+  .icon-list a:nth-child(2) {
+    margin-left: 20px;
+  }
+
+  .icon-list a img {
+    width: 22px;
+    height: 22px;
+  }
+
+  /* banner */
+
+  .banner .banner1 {
+    width: 100%;
+    height: 420px;
+  }
+
+  .banner .banner2 {
+    width: 100%;
+    height: 420px;
+  }
+
+  .banner .banner3 {
+    width: 100%;
+    height: 420px;
+  }
+
+  /* 기프트 리스트 */
+  .gift {
+    width: 100%;
+    height: 630px;
+  }
+
+  .gift-title {
+    width: 330px;
+    height: 46px;
+    margin-left: 135px;
+    margin-top: 115px;
+  }
+
+  /* 기프트 슬라이더 */
+  .gift-list {
+    width: 80%;
+    height: 430px;
+    margin-top: 66px;
+    margin-left: 140px;
+    overflow: hidden;
+  }
+
+  .gift-list .swiper-button-prev {
+    position: absolute;
+    top: 38%;
+    left: 0;
+  }
+  .gift-list .swiper-button-prev::after{
+    font-size: 34px;
+  }
+
+  .gift-list .swiper-button-next {
+    position: absolute;
+    top: 38%;
+    right: 0;
+  }
+  .gift-list .swiper-button-next::after{
+    font-size: 34px;
+  }
+
+  .gift-list h3 {
+    font-size: 16px;
+  }
+
+  .gift-list p {
+    font-size: 13px;
+  }
+
+  /* 메뉴 모음 */
+  .menu-list {
+    width: 100%;
+    height: 580px;
+  }
+
+  .menu-group {
+    width: 94%;
+    height: 440px;
+  }
+
+  .menu-group .menu {
+    width: 25%;
+    height: 440px;
+  }
+
+  .menu-group .menu-img {
+    width: 186px;
+    height: 186px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .menu-group .menu h3 {
+    margin-top: 26px;
+    margin-bottom: 16px;
+    color: #130e0a;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Noto Serif KR", serif;
+  }
+
+  .menu-group .menu p {
+    color: #130e0a;
+    font-size: 13px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+
+  /* 기프트 파인더, 지원모드 */
+  .gift-f {
+    width: 100%;
+    height: 570px;
+  }
+
+  .gift-finder {
+    /* background-color: #5D4131; */
+    width: 380px;
+    height: 260px;
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+
+  .gift-finder .gift-f-img {
+    width: 220px;
+    height: 51px;
+  }
+
+  .gift-finder p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 26px;
+  }
+
+  .gift-finder .button1 {
+    width: 138px;
+    height: 35px;
+  }
+
+  .gift-finder .button1 a {
+    font-size: 14px;
+    line-height: 35px;
+  }
+
+  .service {
+    /* background-color: #5D4131; */
+    width: 420px;
+    height: 260px;
+    margin-top: 300px;
+    margin-right: 80px;
+  }
+
+  .service .service-img {
+    width: 249px;
+    height: 58px;
+  }
+
+  .service p {
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 14px;
+  }
+
+  .service .button2 {
+    width: 154px;
+    height: 35px;
+  }
+
+  .service .button2 a {
+    font-size: 14px;
+    line-height: 35px;
+  }
+
+  .gift-f .logo-img {
+    width: 160px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* store */
+
+  .store {
+    width: 100%;
+    height: 680px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .store .store-box {
+    width: 560px;
+    height: 365px;
+    margin-left: 126px;
+    margin-top: 160px;
+  }
+  
+  .store-title {
+    width: 380px;
+    height: 280px;
+    margin-right: 120px;
+    margin-top: 220px;
+  }
+
+  .store-title .store-loc {
+    width: 230px;
+    height: 68px;
+  }
+
+  .store-title p {
+    font-size: 16px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  .store-title .button3 {
+    width: 140px;
+    height: 35px;
+  }
+
+  .store-title .button3 a {
+    font-size: 14px;
+    line-height: 35px;
+  }
+
+  /* footer */
+  footer {
+    padding: 28px 80px;
+  }
+
+  footer .social .f-icon-list {
+    width: 120px;
+    height: 24px;
+  }
+
+  footer .social .f-icon-list .f-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+  }
+} /* end */
+
+@media (max-width: 1160px) {
+  .nav {
+    width: 100%;
+    height: 70px;
+    background-color: #e1cfc6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav .hamburger {
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 25px;
+  }
+
+  .nav .nav-menu {
+    display: none;
+  }
+
+  .logo {
+    width: 108px;
+    height: 34px;
+    top: 54%;
+    left: 50%;
+  }
+
+  .logo a img {
+    width: 108px;
+    height: 34px;
+  }
+
+  .icon-list {
+    margin-right: 30px;
+  }
+
+  .icon-list a:last-child {
+    margin-left: 25px;
+  }
+
+  .icon-list a:nth-child(2) {
+    margin-left: 19px;
+  }
+
+  .icon-list a img {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* banner */
+  .banner {
+    width: 400%;
+    display: flex;
+  }
+
+  .banner .banner1 {
+    width: 100%;
+    height: 400px;
+  }
+
+  .banner .banner2 {
+    width: 100%;
+    height: 400px;
+  }
+
+  .banner .banner3 {
+    width: 100%;
+    height: 400px;
+  }
+
+  .banner .t-box {
+    width: 960px;
+    margin-left: 80px;
+    margin-top: 82px;
+  }
+
+  .banner .banner1 h3 {
+    font-size: 44px;
+  }
+
+  .banner .banner1 p {
+    font-size: 28px;
+  }
+
+  .banner .banner1 .banner-btn {
+    font-size: 20px;
+  }
+
+  /* 기프트 리스트 */
+  .gift {
+    width: 100%;
+    height: 650px;
+  }
+
+  .gift-title {
+    width: 320px;
+    height: 84px;
+    margin-left: 120px;
+    margin-top: 90px;
+  }
+
+  /* 기프트 슬라이더 */
+  .gift-list {
+    width: 80%;
+    height: 380px;
+    margin-top: 58px;
+    margin-left: 120px;
+  }
+
+  
+  .gift-list .gift-slider {
+    width: 400%;
+  }
+
+  .gift-list .swiper-button-prev {
+    position: absolute;
+    top: 38%;
+    left: 0;
+  }
+  .gift-list .swiper-button-prev::after{
+    font-size: 38px;
+  }
+
+  .gift-list .swiper-button-next {
+    position: absolute;
+    top: 38%;
+    right: 0;
+  }
+  .gift-list .swiper-button-next::after{
+    font-size: 38px;
+  }
+
+  .gift-list .list {
+    width: 25%;
+  }
+
+  .gift-list h3 {
+    font-size: 16px;
+  }
+
+  .gift-list p {
+    font-size: 14px;
+  }
+
+  .gift-list img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* 메뉴 모음 */
+  .menu-list {
+    width: 100%;
+    height: 1020px;
+  }
+
+  .menu-group {
+    width: 85%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .menu-group .menu {
+    width: 50%;
+    height: 490px;
+  }
+
+  .menu-group .menu {
+    border: none;
+  }
+
+  .menu-group .menu-img {
+    width: 230px;
+    height: 230px;
+  }
+
+  .menu-group .menu h3 {
+    margin-bottom: 18px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .menu-group .menu p {
+    font-size: 15px;
+  }
+
+  /* 기프트 파인더, 지원모드 */
+  .gift-f {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    height: 880px;
+  }
+
+  .gift-finder {
+    width: 700px;
+    height: 280px;
+    margin-top: 120px;
+    margin-left: 80px;
+  }
+
+  .gift-finder .gift-f-img {
+    width: 230px;
+    height: 66px;
+  }
+
+  .gift-finder p {
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 36px;
+  }
+
+  .gift-finder .button1 {
+    width: 160px;
+    height: 40px;
+  }
+
+  .gift-finder .button1 a {
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .service {
+    width: 100%;
+    height: 320px;
+    margin-top: 500px;
+    margin-right: 80px;
+  }
+
+  .service .service-img {
+    width: 260px;
+    height: 72px;
+  }
+
+  .service p {
+    font-size: 18px;
+    margin-top: 22px;
+    margin-bottom: 18px;
+  }
+
+  .service .button2 {
+    width: 180px;
+    height: 40px;
+  }
+
+  .service .button2 a {
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .gift-f .logo-img {
+    width: 160px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* store */
+
+  .store {
+    width: 100%;
+    height: 880px;
+    display: block;
+  }
+  
+  .store .store-box {
+    width: 640px;
+    height: 417px;
+    margin: 30px auto;
+  }
+
+  .store-title {
+    width: 680px;
+    height: 280px;
+    /* margin-left: 160px;
+    margin-top: 80px; */
+    text-align: left;
+    margin: 76px auto;
+  }
+
+  .store-title .store-loc {
+    width: 250px;
+    height: 74px;
+  }
+
+  .store-title p {
+    font-size: 18px;
+    /* margin-top: 20px;
+    margin-bottom: 18px; */
+    text-align: center;
+    margin: 18px auto;
+  }
+
+  .store-title .button3 {
+    width: 160px;
+    height: 40px;
+    float: right;
+  }
+
+  .store-title .button3 a {
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  /* footer */
+  footer {
+    padding: 34px 100px;
+    flex-wrap: wrap;
+  }
+
+  .f-box {
+    width: 20%;
+    margin-bottom: 40px;
+  }
+
+  footer .notice {
+    width: 100%;
+  }
+
+  footer .notice p {
+    font-size: 12px;
+  }
+} /* end */
+
+@media (max-width: 950px) {
+  /* banner */
+  .banner {
+    width: 400%;
+    display: flex;
+  }
+
+  .banner .banner1 {
+    width: 100%;
+    height: 594px;
+    background-image: url(../img2/banner1-t.png);
+  }
+
+  .banner .banner2 {
+    width: 100%;
+    height: 594px;
+    background-image: url(../img2/banner2-t.png);
+  }
+
+  .banner .banner3 {
+    width: 100%;
+    height: 594px;
+    background-image: url(../img2/banner4-t.png);
+  }
+
+  .banner .t-box {
+    margin-top: 120px;
+    margin-left: 46px;
+    width: 620px;
+  }
+
+  /* 기프트 리스트 */
+  .gift {
+    width: 100%;
+    height: 620px;
+  }
+
+  .gift-title {
+    width: 320px;
+    height: 84px;
+    margin-left: 94px;
+    margin-top: 80px;
+  }
+
+  /* 기프트 슬라이더 */
+  .gift-list {
+    width: 70%;
+    height: 380px;
+    margin-top: 56px;
+    margin-left: 120px;
+  }
+
+  .gift-list .swiper-button-prev {
+    position: absolute;
+    top: 45%;
+    left: 0;
+  }
+  .gift-list .swiper-button-prev::after{
+    font-size: 40px;
+  }
+
+  .gift-list .swiper-button-next {
+    position: absolute;
+    top: 45%;
+    right: 0;
+  }
+  .gift-list .swiper-button-next::after{
+    font-size: 40px;
+  }
+
+  .gift-list .gift-slider {
+    width: 600%;
+  }
+
+  .gift-list .gift-slider .list h3 {
+    font-size: 14px;
+  }
+  .gift-list .gift-slider .list p {
+    font-size: 12px;
+  }
+
+  .gift-list .list {
+    width: 50%;
+  }
+
+  /* 메뉴 모음 */
+  .menu-list {
+    height: 940px;
+  }
+
+  .menu-group {
+    width: 80%;
+    height: auto;
+  }
+
+  .menu-group .menu {
+    width: 50%;
+    height: 440px;
+  }
+
+  .menu-group .menu {
+    border: none;
+  }
+
+  .menu-group .menu-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .menu-group .menu h3 {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .menu-group .menu p {
+    font-size: 14px;
+  }
+
+  /* 기프트 파인더, 지원모드 */
+  .gift-f {
+    height: 880px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .gift-finder {
+    width: 800px;
+    height: 280px;
+  }
+
+  .gift-finder .gift-f-img {
+    width: 200px;
+    height: 57px;
+  }
+
+  .gift-finder p {
+    font-size: 17px;
+    margin-top: 26px;
+    margin-bottom: 30px;
+  }
+
+  .gift-finder .button1 {
+    width: 150px;
+    height: 40px;
+  }
+
+  .gift-finder .button1 a {
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  .service {
+    width: 90%;
+    height: 290px;
+    margin-top: 160px;
+    /* margin-right: 80px; */
+  }
+
+  .service .service-img {
+    width: 230px;
+    height: 64px;
+  }
+
+  .service p {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+  }
+
+  .service .button2 {
+    width: 170px;
+    height: 40px;
+  }
+
+  .service .button2 a {
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  .gift-f .logo-img {
+    width: 160px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* store */
+
+  .store {
+    width: 100%;
+    height: 780px;
+    display: block;
+  }
+  
+  .store .store-box {
+    width: 582px;
+    height: 360px;
+    margin: 60px auto;
+  }
+
+  .store-title {
+    width: 582px;
+    height: 280px;
+    /* margin-left: 160px;
+    margin-top: 80px; */
+    text-align: left;
+    position: relative;
+    margin: 80px auto;
+  }
+
+  .store-title .store-loc {
+    width: 229px;
+    height: 68px;
+  }
+
+  .store-title p {
+    font-size: 18px;
+    /* margin-top: 20px;
+    margin-bottom: 18px; */
+    text-align: center;
+    margin: 18px auto;
+  }
+
+  .store-title .button3 {
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+  }
+
+  .store-title .button3 a {
+    font-size: 16px;
+    line-height: 40px;
+  }
+  
+  /* footer */
+  footer {
+    padding: 34px 60px;
+  }
+} /* end */
+
+@media (max-width: 692px) {
+  /* header */
+  .logo {
+    width: 120px;
+    height: 38px;
+    top: 57%;
+    left: 52%;
+  }
+
+  .logo a img {
+    width: 100px;
+    height: 31px;
+  }
+
+  .icon-list {
+    margin-right: 25px;
+  }
+
+  .icon-list a:last-child {
+    margin-left: 20px;
+  }
+
+  .icon-list a:nth-child(2) {
+    margin-left: 14px;
+  }
+
+  .icon-list a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* banner */
+  .banner {
+    width: 400%;
+    display: flex;
+  }
+
+  .banner .banner1 {
+    width: 100%;
+    height: 650px;
+    background-color: none;
+    background-image: url(../img2/banner1-m.png);
+  }
+
+  .banner .banner2 {
+    width: 100%;
+    height: 650px;
+    background-image: url(../img2/banner2-m.png);
+  }
+
+  .banner .banner3 {
+    width: 100%;
+    height: 650px;
+    background-image: url(../img2/banner4-m.png);
+  }
+
+  .banner .t-box {
+    width: 430px;
+    margin-left: 30px;
+    margin-top: 150px;
+  }
+  .banner h3 {
+    font-size: 44px;
+    margin-bottom: 40px;
+  }
+  .banner p {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+  .banner .banner-btn {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  /* 기프트 리스트 */
+  .gift {
+    width: 100%;
+    height: 520px;
+  }
+
+  .gift-title {
+    width: 274px;
+    height: 72px;
+    margin-left: 84px;
+    margin-top: 78px;
+  }
+
+  /* 기프트 슬라이더 */
+  .gift-list {
+    width: 75%;
+    height: 310px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .gift-list .swiper-button-prev {
+    position: absolute;
+    top: 42%;
+    left: 0;
+  }
+  .gift-list .swiper-button-prev::after{
+    font-size: 36px;
+  }
+
+  .gift-list .swiper-button-next {
+    position: absolute;
+    top: 42%;
+    right: 0;
+  }
+  .gift-list .swiper-button-next::after{
+    font-size: 36px;
+  }
+
+  .gift-slider .list h3 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .gift-slider .list p {
+    font-size: 13px;
+  }
+
+  /* 메뉴 모음 */
+  .menu-list {
+    height: 800px;
+  }
+
+  .menu-group {
+    width: 90%;
+    height: auto;
+  }
+
+  .menu-group .menu {
+    width: 50%;
+    height: 380px;
+  }
+
+  .menu-group .menu {
+    border: none;
+  }
+
+  .menu-group .menu-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .menu-group .menu h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .menu-group .menu p {
+    font-size: 12px;
+  }
+
+  /* 기프트 파인더, 지원모드 */
+  .gift-f {
+    height: 744px;
+    display: block;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+    padding: 0;
+  }
+
+  .gift-finder {
+    width: 80%;
+    height: 240px;
+    margin-left: 60px;
+  }
+
+  .gift-finder .gift-f-img {
+    width: 186px;
+    height: 52px;
+  }
+
+  .gift-finder p {
+    font-size: 16px;
+    margin-top: 26px;
+    margin-bottom: 30px;
+  }
+
+  .gift-finder .button1 {
+    width: 140px;
+    height: 36px;
+  }
+
+  .gift-finder .button1 a {
+    font-size: 14px;
+    line-height: 36px;
+  }
+
+  .service {
+    width: 80%;
+    height: 260px;
+    margin-top: 240px;
+    margin-left: 60px;
+  }
+
+  .service .service-img {
+    width: 210px;
+    height: 58px;
+  }
+
+  .service p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+
+  .service .button2 {
+    width: 150px;
+    height: 36px;
+  }
+
+  .service .button2 a {
+    font-size: 14px;
+    line-height: 36px;
+  }
+
+  .gift-f .logo-img {
+    width: 132px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* store */
+
+  .store {
+    width: 100%;
+    height: 700px;
+    display: block;
+  }
+  
+  .store .store-box {
+    width: 500px;
+    height: 330px;
+    margin: 60px auto;
+  }
+  .store .store-list .aesop-store p{
+    margin-top: 14px;
+    font-size: 16px;
+  }
+
+  .store-title {
+    width: 500px;
+    height: 240px;
+    /* margin-left: 160px;
+    margin-top: 80px; */
+    text-align: left;
+    position: relative;
+    margin: 60px auto;
+  }
+
+  .store-title .store-loc {
+    width: 202px;
+    height: 60px;
+  }
+
+  .store-title p {
+    font-size: 16px;
+    /* margin-top: 20px;
+    margin-bottom: 18px; */
+    margin: 16px auto;
+  }
+
+  .store-title .button3 {
+    width: 140px;
+    height: 36px;
+  }
+
+  .store-title .button3 a {
+    font-size: 14px;
+    line-height: 36px;
+  }
+
+  /* footer */
+  footer {
+    padding: 34px 60px;
+    flex-wrap: wrap;
+  }
+
+  footer h4 {
+    font-size: 12px;
+  }
+
+  footer p {
+    font-size: 11px;
+  }
+
+  .f-box {
+    width: 33.333%;
+    margin-bottom: 40px;
+  }
+
+  .about,
+  .social {
+    width: 43%;
+  }
+
+  footer .f-box {
+    margin-bottom: 20px;
+  }
+
+  footer .notice p {
+    font-size: 11px;
+  }
+} /* end */
+
+@media (max-width: 448px) {
+  /* header */
+  .nav {
+    width: 100%;
+    height: 46px;
+  }
+
+  .nav .hamburger {
+    width: 22px;
+    height: 22px;
+  }
+
+  .logo {
+    width: 65px;
+    height: 19px;
+    top: 54%;
+    left: 50%;
+  }
+
+  .logo a img {
+    width: 65px;
+    height: 19px;
+  }
+
+  .icon-list {
+    margin-right: 25px;
+  }
+
+  .icon-list a:last-child {
+    margin-left: 14px;
+  }
+
+  .icon-list a:nth-child(2) {
+    margin-left: 8px;
+  }
+
+  .icon-list a img {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* banner */
+  .banner {
+    width: 400%;
+    height: 620px;
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  .banner .banner1 {
+    width: 100%;
+    height: 620px;
+  }
+
+  .banner .banner2 {
+    width: 100%;
+    height: 620px;
+  }
+
+  .banner .banner3 {
+    width: 100%;
+    height: 620px;
+  }
+
+  .banner .t-box {
+    width: 305px;
+    margin-left: 34px;
+    margin-top: 100px;
+  }
+  .banner .banner1 h3 {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  .banner .banner1 p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    line-height: 20px;
+  }
+  .banner .banner1 .b-btn{
+    width: 100px;
+    height: 22px;
+    line-height: 22px;
+  }
+  .banner .banner1 .b-btn .banner-btn {
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .banner .banner2 h3 {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  .banner .banner2 p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    line-height: 20px;
+  }
+  .banner .banner2 .b-btn{
+    width: 100px;
+    height: 22px;
+    line-height: 22px;
+  }
+  .banner .banner2 .b-btn .banner-btn {
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .banner .banner3 h3 {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  .banner .banner3 p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    line-height: 20px;
+  }
+  .banner .banner3 .b-btn{
+    width: 100px;
+    height: 22px;
+    line-height: 22px;
+  }
+  .banner .banner3 .b-btn .banner-btn {
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  /* 기프트 리스트 */
+  .gift {
+    width: 100%;
+    height: 360px;
+  }
+
+  .gift-title {
+    width: 185px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 68px;
+  }
+
+  /* 기프트 슬라이더 */
+  .gift-list {
+    width: 90%;
+    height: 260px;
+    margin: 0 auto;
+    margin-top: 38px;
+  }
+  .gift-list .second {
+    width: 100%;
+    position: relative;
+  }
+  .gift-list .gift-slider {
+    width: 600%;
+  }
+  .gift-list .list {
+    width: 50%;
+  }
+
+  .gift-list .swiper-button-prev {
+    position: absolute;
+    top: 38%;
+    left: 0;
+  }
+  .gift-list .swiper-button-prev::after{
+    font-size: 28px;
+  }
+
+  .gift-list .swiper-button-next {
+    position: absolute;
+    top: 38%;
+    right: 0;
+  }
+  .gift-list .swiper-button-next::after{
+    font-size: 28px;
+  }
+
+
+  .gift-list .gift-slider .list h3 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .gift-list .gift-slider .list p {
+    font-size: 10px;
+  }
+
+  
+  
+
+
+  /* 메뉴 모음 */
+  .menu-list {
+    height: 680px;
+  }
+
+  .menu-group {
+    width: 90%;
+    height: auto;
+  }
+
+  .menu-group .menu {
+    width: 50%;
+    height: 300px;
+  }
+
+  .menu-group .menu-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .menu-group .menu h3 {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .menu-group .menu p {
+    font-size: 11px;
+  }
+
+  /* 기프트 파인더, 지원모드 */
+  .gift-f {
+    height: 660px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+
+  .gift-finder {
+    width: 100%;
+    height: 200px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .gift-finder .gift-f-img {
+    width: 148px;
+    height: 46px;
+  }
+
+  .gift-finder p {
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+  }
+
+  .gift-finder .button1 {
+    width: 128px;
+    height: 30px;
+  }
+
+  .gift-finder .button1 a {
+    font-size: 13px;
+    line-height: 30px;
+  }
+
+  .service {
+    width: 100%;
+    height: 220px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .service .service-img {
+    width: 171px;
+    height: 46px;
+  }
+
+  .service p {
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+  }
+
+  .service .button2 {
+    width: 140px;
+    height: 30px;
+  }
+
+  .service .button2 a {
+    font-size: 13px;
+    line-height: 30px;
+  }
+
+  .gift-f .logo-img {
+    width: 114px;
+    height: 36px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* store */
+
+  .store {
+    width: 100%;
+    height: 580px;
+    display: block;
+    padding: 24px;
+  }
+  
+  .store .store-box {
+    width: 100%;
+    height: 240px;
+    margin: 20px auto;
+  }
+  .store .store-list .aesop-store p{
+    margin-top: 12px;
+    font-size: 14px;
+  }
+
+  .store-title {
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+    margin: 32px auto;
+  }
+
+  .store-title .store-loc {
+    width: 163px;
+    height: 46px;
+  }
+
+  .store-title p {
+    font-size: 14px;
+    margin: 12px auto;
+  }
+
+  .store-title .button3 {
+    width: 128px;
+    height: 30px;
+    float: right;
+  }
+
+  .store-title .button3 a {
+    font-size: 13px;
+    line-height: 30px;
+  }
+
+  /* footer */
+  footer {
+    padding: 32px 40px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+
+  footer h4 {
+    font-size: 12px;
+  }
+
+  footer p {
+    font-size: 11px;
+  }
+
+  .f-box {
+    width: 33.333%;
+    margin-bottom: 40px;
+  }
+
+  .about,
+  .social {
+    width: 43%;
+  }
+
+  footer .f-box {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  footer .notice p {
+    font-size: 11px;
+  }
+
+  footer .order{
+    display: none;
+  }
+  footer .f-service{
+    display: none;
+  }
+  footer .location #select-loc{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
+  footer .location #select-lan{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
+
+ /* end */
